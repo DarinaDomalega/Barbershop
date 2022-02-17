@@ -42,8 +42,59 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
 /* ========= START COMPONENTS ========= */
-.modal-btn {
+
+.header {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.logo {
+  margin-right: 71px;
+}
+
+.contact-number {
+  margin-left: auto;
+}
+
+.nav .modal-btn {
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
@@ -53,6 +104,28 @@ ol {
   cursor: pointer;
 
   /*color: #ffffff;*/
+}
+
+.modal-btn {
+  min-width: 160px;
+  margin-left: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ff6c00;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 .modal-btn:hover,
