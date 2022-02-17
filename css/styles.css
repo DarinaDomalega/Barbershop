@@ -67,6 +67,11 @@ address {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -153,6 +158,7 @@ address {
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .overtitle-theme-dark {
@@ -196,10 +202,12 @@ address {
 }
 
 .title-theme-dark {
+  margin-bottom: 44px;
   color: var(--secondary-text-color-theme-dark);
 }
 
 .title-theme-light {
+  margin-bottom: 20px;
   color: var(--secondary-text-color-theme-light);
 }
 /* ========= END COMPONENTS ========= */
@@ -278,6 +286,27 @@ address {
 /* ========= END ADVANTAGES ========= */
 
 /* ========= START EMPLOYEES ========= */
+
+.employees {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.employees-card {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.employees-section {
+  background: #f7f7f7;
+}
+
+.employees-section .title {
+  margin-bottom: 44px;
+}
+
 .employees-name {
   font-weight: 400;
   font-size: 18px;
